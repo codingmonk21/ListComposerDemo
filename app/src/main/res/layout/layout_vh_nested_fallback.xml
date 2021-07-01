@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/nestedCard"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_margin="16dp"
+        app:cardBackgroundColor="@color/fallback"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:id="@+id/tvContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+    </androidx.cardview.widget.CardView>
+</layout>

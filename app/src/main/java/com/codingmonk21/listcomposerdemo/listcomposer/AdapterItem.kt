@@ -1,0 +1,3 @@
+package com.codingmonk21.listcomposerdemo.listcomposer
+
+interface AdapterItem

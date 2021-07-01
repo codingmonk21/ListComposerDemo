@@ -1,0 +1,2 @@
+rootProject.name = "ListComposerDemo"
+include ':app'
